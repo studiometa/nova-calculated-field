@@ -19,7 +19,6 @@
             @input="handleChange"
             :value="value"
         />
-        <input type="button" class="btn btn-default btn-primary ml-3 cursor-pointer" value="Calculate" :id="field.attribute.concat('CalculateButton')" v-on:click="calculateValue(true);">
 
       </div>
     </template>
